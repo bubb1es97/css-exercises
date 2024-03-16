@@ -2,11 +2,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 8px;
+  display: flex; /* turns "header" into a flexbox display */
+  justify-content: space-between; /*give space between the logo and lists of links*/
+  align-items: center; /*align logo and links to center of "header" box*/
+  flex-wrap: wrap; /*set the container so that it will shrink content to next line*/
+  padding: 8px; /*give header padding so that there is no spillage*/
 }
 
 
@@ -21,10 +21,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  display: flex;
-  gap: 8px;
-  margin: auto;
-  padding: 0%;
+  display: flex; /* turn "lists" into a flexbox display */
+  gap: 8px; /* create gap between each list item */
+  margin: auto; /* nullify margin created by default list container*/
+  padding: 0%; /*set padding in default list container to zero*/
 }
 
 a {
